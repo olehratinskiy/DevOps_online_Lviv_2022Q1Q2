@@ -1,4 +1,4 @@
-##Git work results
+## Git work results
 
 ---
 - I created a <ins>develop</ins> branch and **index.html** in it
@@ -13,7 +13,7 @@
 - Resolved conflict and made a commit 
 - Ran a command `git reflog` and saved the result to **task1.1_GIT**
 
-##What is DevOps?
+## What is DevOps?
 
 ---
 This is a kind of developing direction which helps to adjust work between programmers and people who are responsible for
