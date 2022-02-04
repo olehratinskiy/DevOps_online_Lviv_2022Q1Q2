@@ -1,0 +1,15 @@
+6ec5370 (HEAD -> main, origin/main, origin/develop, develop) HEAD@{0}: merge develop: Fast-forward
+5db0611 HEAD@{1}: checkout: moving from develop to main
+6ec5370 (HEAD -> main, origin/main, origin/develop, develop) HEAD@{2}: commit (merge): Merged and resolved the conflict in index.html
+4ddbb84 (origin/images, images) HEAD@{3}: merge images: Fast-forward
+160efae HEAD@{4}: checkout: moving from styles to develop
+0c97ff3 (origin/styles, styles) HEAD@{5}: commit: Change index.html
+73e0815 HEAD@{6}: commit: Create styles folder with styles in it
+160efae HEAD@{7}: checkout: moving from develop to styles
+160efae HEAD@{8}: checkout: moving from images to develop
+4ddbb84 (origin/images, images) HEAD@{9}: commit: Add images source to index.html
+8432c8f HEAD@{10}: commit: Create img folder with images in it
+160efae HEAD@{11}: checkout: moving from develop to images
+160efae HEAD@{12}: commit: Create index.html
+5db0611 HEAD@{13}: checkout: moving from main to develop
+5db0611 HEAD@{14}: commit (initial): Initial commit
