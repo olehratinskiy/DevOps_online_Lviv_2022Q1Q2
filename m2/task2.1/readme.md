@@ -13,18 +13,17 @@ There are two types of hypervisors. The first type runs directly on the host's h
 
 ### First run VirtualBox and Virtual Machine
 
-**Created a virtual machine VM1_Ubuntu_Ratinskiy and made a clone of it called VM2_Ubuntu_Ratinskiy**
+**Created a virtual machine VM1_Ubuntu_Ratinskiy and made a clone of it called VM2_Ubuntu_Ratinskiy**\
 ![img_15.png](img/img_15.png)
 <br/><br/>
-
-**Created a group of these two VMs**
+**Created a group of these two VMs**\
 ![img_16.png](img/img_16.png)\
 ![img_17.png](img/img_17.png)
 <br/><br/>
-**Formed a branched tree of snapshots for VM1_Ubuntu_Ratinskiy**
+**Formed a branched tree of snapshots for VM1_Ubuntu_Ratinskiy**\
 ![img_18.png](img/img_18.png)
 <br/><br/>
-**Exported VM1_Ubuntu_Ratinskiy as a file and imported it again**
+**Exported VM1_Ubuntu_Ratinskiy as a file and imported it again**\
 ![img_19.png](img/img_19.png)\
 ![img_20.png](img/img_20.png)\
 ![img_21.png](img/img_21.png)
@@ -32,15 +31,15 @@ There are two types of hypervisors. The first type runs directly on the host's h
 
 ### Configuration of virtual machines
 
-**Configured a USB connection to the VM**
+**Configured a USB connection to the VM**\
 ![img.png](img/img_24.png)\
 ![img.png](img/img_25.png)
 <br/><br/>
-**Created a shared folder between VM1 and the host**
+**Created a shared folder between VM1 and the host**\
 ![img.png](img/img_22.png)\
 ![img.png](img/img_23.png)
 <br/><br/>
-**Made a table of possible connections (between VM1, VM2, Host, Internet) using different network modes**
+**Made a table of possible connections (between VM1, VM2, Host, Internet) using different network modes**\
 | Mode        | VM to Host | Host to VM   | VM1 to VM2   | VM to Net/LAN | Net/LAN to VM |
 | ----------- | -----------| -------------| -------------| --------------| --------------|
 | Host-only   | Yes        | Yes          | Yes          | No            | No            |
