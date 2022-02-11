@@ -46,8 +46,7 @@ There are two types of hypervisors. The first type runs directly on the host's h
 | Internal    | No         | No           | Yes          | No            | No            |
 | Bridged     | Yes        | Yes          | Yes          | Yes           | Yes           |
 | NAT         | Yes        | Port forward | No           | Yes           | Port forward  |
-| NAT Network | Yes        | Port forward | Yes          | Yes           | Port forward  |
-<br/><br/>
+| NAT Network | Yes        | Port forward | Yes          | Yes           | Port forward  |\
 
 ### Work with CLI through VBoxManage
 
@@ -91,7 +90,7 @@ There are two types of hypervisors. The first type runs directly on the host's h
 **vagrant destroy**\
 ![img_10.png](img/img_10.png)
 <br/><br/>
-**create Vagrant box**\
+**Created a Vagrant box**\
 ![img_13.png](img/img_13.png)\
 ![img_14.png](img/img_14.png)
 <br/><br/>
