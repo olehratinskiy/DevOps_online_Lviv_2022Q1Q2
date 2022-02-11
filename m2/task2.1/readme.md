@@ -39,7 +39,7 @@ There are two types of hypervisors. The first type runs directly on the host's h
 ![img.png](img/img_22.png)\
 ![img.png](img/img_23.png)
 <br/><br/>
-**Made a table of possible connections (between VM1, VM2, Host, Internet) using different network modes**\
+**Made a table of possible connections (between VM1, VM2, Host, Internet) using different network modes**
 | Mode        | VM to Host | Host to VM   | VM1 to VM2   | VM to Net/LAN | Net/LAN to VM |
 | ----------- | -----------| -------------| -------------| --------------| --------------|
 | Host-only   | Yes        | Yes          | Yes          | No            | No            |
@@ -51,49 +51,49 @@ There are two types of hypervisors. The first type runs directly on the host's h
 
 ### Work with CLI through VBoxManage
 
-VBoxManage list\
+**VBoxManage list**\
 ![img.png](img/img.png)
 <br/><br/>
-VBoxManage showvminfo\
+**VBoxManage showvminfo**\
 ![img_1.png](img/img_1.png)
 <br/><br/>
-VBoxManage startvm\
+**VBoxManage startvm**\
 ![img_2.png](img/img_2.png)
 <br/><br/>
-VBoxManage createvm\
+**VBoxManage createvm**\
 ![img_3.png](img/img_3.png)
 <br/><br/>
-VBoxManage modifyvm\
+**VBoxManage modifyvm**\
 ![img_4.png](img/img_4.png)
 <br/><br/>
-VBoxManage clonevm\
+**VBoxManage clonevm**\
 ![img_5.png](img/img_5.png)
 <br/><br/>
-VBoxManage snapshot\
+**VBoxManage snapshot**\
 ![img_6.png](img/img_6.png)
 <br/><br/>
-VBoxManage controlvm\
+**VBoxManage controlvm**\
 ![img_7.png](img/img_7.png)
 <br/><br/>
 
 ## PART 3. WORK WITH VAGRANT
 
-vagrant init hashicorp/precise64\
-vagrant up\
+**vagrant init hashicorp/precise64**\
+**vagrant up**\
 ![img_8.png](img/img_8.png)\
 ![img_9.png](img/img_9.png)
 <br/><br/>
-mobaxterm date\
+**mobaxterm date**\
 ![img_11.png](img/img_11.png)
 <br/><br/>
-vagrant ssh-config\
-vagrant halt\
-vagrant destroy\
+**vagrant ssh-config**\
+**vagrant halt**\
+**vagrant destroy**\
 ![img_10.png](img/img_10.png)
 <br/><br/>
-create Vagrant box\
+**create Vagrant box**\
 ![img_13.png](img/img_13.png)\
 ![img_14.png](img/img_14.png)
 <br/><br/>
-My Vagrant box:
+**My Vagrant box:**
 [test_box](https://app.vagrantup.com/olehratinskiy/boxes/test_box)
